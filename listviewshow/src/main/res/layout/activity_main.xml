@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_main_user"
+            style="@style/ButtonStyly"
+            android:text="用户" />
+
+        <Button
+            android:id="@+id/btn_main_save"
+            style="@style/ButtonStyly"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/btn_main_clear"
+            style="@style/ButtonStyly"
+            android:text="清除" />
+
+        <Button
+            android:id="@+id/btn_main_loading"
+            style="@style/ButtonStyly"
+            android:text="载入" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_main_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
